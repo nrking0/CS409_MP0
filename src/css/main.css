@@ -1,7 +1,5 @@
 /* Your CSS here. */
 .card {
-    /* height: 150px;
-    width: 150px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,4 +13,19 @@
 .profile-image {
     height: 150px;
     width: 150px;
+}
+
+.card p {
+    width: 70vw;
+}
+
+.color-buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.color-buttons button {
+    margin: 10px;
+    cursor: pointer;
 }
